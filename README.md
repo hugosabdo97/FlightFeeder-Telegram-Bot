@@ -11,8 +11,8 @@ Fitur
 # Persyaratan
 Python 3.x
 Library Python:
-python-telegram-bot
-requests
+- python-telegram-bot v13.7
+- requests
 
 # Cara Install :
 
@@ -34,7 +34,7 @@ requests
 - TELEGRAM_TOKEN = '729xxxx:xxxxxxxxxxxxxxxxx'
 - STATUS_URL = "http://Ipflightfeeder/status.json"
 - AIRCRAFT_URL = "http://Ipflightfeede/skyaware/data/aircraft.json"
-- job_queue.run_repeating(monitor_aircraft, interval=10, first=0, context=xxxxxxx)
+- job_queue.run_repeating(monitor_aircraft, interval=10, first=0, context=xxxxxxx) / XXXX=chat ID
 
 sesuaikan dengan milik anda,mulai telegram token,chat ID dan IP flightfeeder dan lalu save
 
