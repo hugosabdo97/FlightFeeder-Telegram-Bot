@@ -16,31 +16,29 @@ requests
 
 # Cara Install :
 
-Pastikan Python 3.x terpasang.
-Instal dependency yang diperlukan:
-pip install python-telegram-bot requests
+1. Pastikan Python 3.x terpasang.
+2. Instal dependency yang diperlukan:
+    - pip install python-telegram-bot requests
 
-Buat bot Telegram menggunakan @BotFather.
-Simpan token API yang diberikan.
+3. Buat bot Telegram menggunakan @BotFather.
+4. Simpan token API yang diberikan.
 
-Clone Repository
-git clone https://github.com/username/FlightFeeder-Telegram-Bot.git
-cd FlightFeeder-Telegram-Bot
-nano ff_tele.py
+5. Clone Repository
+  - git clone https://github.com/username/FlightFeeder-Telegram-Bot.git
+  - cd FlightFeeder-Telegram-Bot
+6. Edit file ff_tele.py
+  - nano ff_tele.py
 
-pada bagian
+7. pada bagian
 
-ELEGRAM_TOKEN = '729xxxx:xxxxxxxxxxxxxxxxx'
-STATUS_URL = "http://Ipflightfeeder/status.json"
-AIRCRAFT_URL = "http://Ipflightfeede/skyaware/data/aircraft.json"
+- TELEGRAM_TOKEN = '729xxxx:xxxxxxxxxxxxxxxxx'
+- STATUS_URL = "http://Ipflightfeeder/status.json"
+- AIRCRAFT_URL = "http://Ipflightfeede/skyaware/data/aircraft.json"
+- job_queue.run_repeating(monitor_aircraft, interval=10, first=0, context=xxxxxxx)
 
-# Schedule monitoring job,masukan chat ID di XXXXX
-job_queue.run_repeating(monitor_aircraft, interval=10, first=0, context=xxxxxxx)
+sesuaikan dengan milik anda,mulai telegram token,chat ID dan IP flightfeeder dan lalu save
 
-sesuaikan dengan milik anda,mulai telegram token,chat ID dan IP flightfeeder
+8. jalankan script
+- python3 ff_tele.py
 
-save
-
-running python3 ff_tele.py
-
-disarankan running as service
+# disarankan running as service atau bisa menggunakan screen
