@@ -24,7 +24,7 @@ Library Python:
 4. Simpan token API yang diberikan.
 
 5. Clone Repository
-  - git clone https://github.com/username/FlightFeeder-Telegram-Bot.git
+  - git clone https://github.com/hugosabdo97/FlightFeeder-Telegram-Bot.git
   - cd FlightFeeder-Telegram-Bot
 6. Edit file ff_tele.py
   - nano ff_tele.py
