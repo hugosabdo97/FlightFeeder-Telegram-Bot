@@ -3,10 +3,10 @@
 Bot Telegram ini digunakan untuk memonitor perangkat FlightFeeder dari FlightAware, menampilkan status perangkat, daftar pesawat dalam jangkauan radar, serta memberikan notifikasi jika ada pesawat yang masuk atau keluar dari jangkauan radar.
 
 Fitur
-/status: Menampilkan status perangkat FlightFeeder.
-/detail [hex_code]: Menampilkan detail pesawat berdasarkan kode hex.
-/list_now: Menampilkan daftar pesawat yang saat ini terdeteksi oleh radar.
-Notifikasi otomatis saat pesawat masuk atau keluar jangkauan radar.
+- /status: Menampilkan status perangkat FlightFeeder.
+- /detail [hex_code]: Menampilkan detail pesawat berdasarkan kode hex.
+- /list_now: Menampilkan daftar pesawat yang saat ini terdeteksi oleh radar.
+- Notifikasi otomatis saat pesawat masuk atau keluar jangkauan radar.
 
 # Persyaratan
 Python 3.x
