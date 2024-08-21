@@ -1,10 +1,17 @@
-Script di atas adalah bot Telegram untuk memonitor perangkat FlightFeeder dari FlightAware. Bot ini memiliki beberapa fitur utama:
+FlightFeeder Monitoring Bot
+Bot Telegram ini digunakan untuk memonitor perangkat FlightFeeder dari FlightAware, menampilkan status perangkat, daftar pesawat dalam jangkauan radar, serta memberikan notifikasi jika ada pesawat yang masuk atau keluar dari jangkauan radar.
 
-/status: Menampilkan informasi status perangkat dari URL JSON yang diberikan.
-/detail [hex_code]: Memberikan detail spesifik dari pesawat berdasarkan kode hex.
-/list_now: Menampilkan daftar pesawat yang saat ini berada dalam jangkauan radar.
-Monitoring Pesawat: Memberikan notifikasi otomatis ketika pesawat baru masuk jangkauan radar atau keluar dari jangkauan.
-Bot ini secara berkala memeriksa pesawat dalam jangkauan dan mengirimkan notifikasi di Telegram sesuai dengan data JSON yang diterima.
+Fitur
+/status: Menampilkan status perangkat FlightFeeder.
+/detail [hex_code]: Menampilkan detail pesawat berdasarkan kode hex.
+/list_now: Menampilkan daftar pesawat yang saat ini terdeteksi oleh radar.
+Notifikasi otomatis saat pesawat masuk atau keluar jangkauan radar.
+
+Persyaratan
+Python 3.x
+Library Python:
+python-telegram-bot
+requests
 
 Cara Install :
 
