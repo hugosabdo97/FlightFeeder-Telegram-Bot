@@ -1,6 +1,6 @@
 # FlightFeeder Monitoring Bot
 
-Bot Telegram ini digunakan untuk memonitor perangkat FlightFeeder dari FlightAware, menampilkan status perangkat, daftar pesawat dalam jangkauan radar, serta memberikan notifikasi jika ada pesawat yang masuk atau keluar dari jangkauan radar.
+Bot Telegram ini digunakan untuk memonitor perangkat FlightFeeder dari FlightAware, menampilkan status perangkat, daftar pesawat dalam jangkauan radar, serta memberikan notifikasi jika ada pesawat yang masuk atau keluar dari jangkauan radar. Source yang digunakan ialah hasil dump file JSON dari service tar1090 pada FLightFeeder.
 
 Fitur
 - /status: Menampilkan status perangkat FlightFeeder.
