@@ -4,6 +4,10 @@ A Telegram bot designed to monitor FlightAware FlightFeeder devices. It reports 
 
 The bot fetches live JSON data dumped by the `tar1090` service running on the FlightFeeder receiver.
 
+## 📸 Bot Preview
+
+![FlightFeeder Telegram Bot in action](assets/bot-preview.jpg)
+
 ## 🚀 Features
 - **`/status`**: Check the operational health and status of the FlightFeeder device.
 - **`/list_now`**: Display all aircraft currently detected by the radar.
